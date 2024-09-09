@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 import { styles } from "../style";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
@@ -14,7 +15,24 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#804dee]">Trung</span>
+            Hi, I&apos;m <br />
+            <TypeAnimation
+              sequence={[
+                "Trung",
+                1000,
+                "Web Developer",
+                1000,
+                "Mobile Developer",
+                1000,
+                "UI/UX Designer",
+                1000,
+              ]}
+              wrapper="span"
+              style={{ color: "#804dee" }}
+              speed={50}
+              repeat={Infinity}
+            />
+            {/* <span className="text-[#804dee]">Trung</span> */}
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop 3D visuals, user <br className="sm:block hidden" />
