@@ -24,9 +24,12 @@ import threejs from "./tech/threejs.svg";
 import techasians from "./company/techasians.jpg";
 import vtc from "./company/vtc.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import vdg from "./vdg.png";
+import social from "./social_walkapp.jpg";
+import hc from "./hc.png";
+import hospital from "./hospital.png";
+import charbet from "./Charbet.png";
+import vtcedu from "./VTCEdu.png";
 
 export {
   logo,
@@ -50,13 +53,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   techasians,
   vtc,
+  vdg,
+  social,
+  hc,
+  hospital,
+  charbet,
+  vtcedu,
 };

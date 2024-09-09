@@ -15,14 +15,15 @@ import {
   git,
   figma,
   docker,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   techasians,
   vtc,
+  vdg,
+  social,
+  hc,
+  hospital,
+  charbet,
+  vtcedu,
 } from "../assets";
 
 export const navLinks = [
@@ -54,11 +55,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "UI/UX Design",
     icon: creator,
   },
 ];
@@ -111,10 +108,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -176,66 +169,112 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "VDG ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Automatically synthesize reported data, ensure the accuracy of the total data in the report and detailed data of the respective projects ",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+    ],
+    image: vdg,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Social Walkapp",
+    description:
+      "A social network is like a walking game, allowing users to register as members (normal or VIP), buy and sell items, make friends, message each other and interact with each other.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Serverless",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: social,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Hyper Casual Game CMS",
+    description:
+      "CMS Website for Hyper Casual Game using React, redux-toolkit, MUI,... to help admin manage HC game information such as admin, players, events, coupon, game setting,...",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgresSQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: hc,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Receipt Center System ",
+    description:
+      "Hospital management website system. Supports in managing departments, patients, schedules, drugs, and statistical data",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Serverless",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hospital,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "VTC Education App",
+    description: "Online learning application for VTC Education",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PHP",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
+    image: vtcedu,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Charbet",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Webtool using React, Redux Saga, Ant design,.. where users can read stories or register to become story creators",
     tags: [
       {
-        name: "react",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "Redux",
+        color: "pink-text-gradient",
       },
       {
-        name: "scss",
+        name: "Redux Saga",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: charbet,
     source_code_link: "https://github.com/",
   },
 ];

@@ -10,6 +10,7 @@ import {
   StarsCanvas,
   Tech,
 } from "./components";
+import "react-multi-carousel/lib/styles.css";
 
 function App() {
   return (
