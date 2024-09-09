@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  techasians,
+  vtc,
 } from "../assets";
 
 export const navLinks = [
@@ -122,7 +122,7 @@ const experiences = [
   {
     title: "Front-end Developer",
     company_name: "Techasians",
-    icon: starbucks,
+    icon: techasians,
     iconBg: "#383E56",
     date: "March 2022 - June 2023",
     points: [
@@ -135,7 +135,7 @@ const experiences = [
   {
     title: "Front-end Developer",
     company_name: "VTC",
-    icon: tesla,
+    icon: vtc,
     iconBg: "#E6DEDD",
     date: "July 2023 - Now",
     points: [
